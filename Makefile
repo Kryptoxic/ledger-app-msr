@@ -23,8 +23,8 @@ $(error Environment variable BOLOS_SDK is not set)
 endif
 include $(BOLOS_SDK)/Makefile.defines
 
-#Monero /44'/128'
-APP_LOAD_PARAMS=  --path "2147483692/2147483776" --curve secp256k1 $(COMMON_LOAD_PARAMS) --appFlags 0x240
+#Masari m/44'/413'/
+APP_LOAD_PARAMS=  --path "2147483692/36507222429" --curve secp256k1 $(COMMON_LOAD_PARAMS) --appFlags 0x240
 APPNAME = "Masari"
 
 ifeq ($(TARGET_NAME),TARGET_BLUE)
