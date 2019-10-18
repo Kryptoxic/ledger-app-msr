@@ -24,7 +24,7 @@ endif
 include $(BOLOS_SDK)/Makefile.defines
 
 #Masari m/44'/413'/
-APP_LOAD_PARAMS=  --path "2147483692/36507222429" --curve secp256k1 $(COMMON_LOAD_PARAMS) --appFlags 0x240
+APP_LOAD_PARAMS=  --path "44'/413'" --curve secp256k1 $(COMMON_LOAD_PARAMS) --appFlags 0x240
 APPNAME = "Masari"
 
 ifeq ($(TARGET_NAME),TARGET_BLUE)
@@ -35,7 +35,7 @@ else
 ICONNAME = images/icon_masari.gif
 endif
 
-DEFINES += MONERO_ALPHA
+#DEFINES += MONERO_ALPHA
 
 APPVERSION_M=1
 APPVERSION_N=4
