@@ -36,10 +36,7 @@ ICONNAME = images/icon_masari.gif
 endif
 
 #DEFINES += MONERO_ALPHA
-<<<<<<< HEAD
-=======
 #DEFINES += MONERO_BETA
->>>>>>> upstream/master
 
 APPVERSION_M=1
 APPVERSION_N=6
@@ -64,13 +61,6 @@ DEFINES   += UI_NANO_S
 endif
 
 #DEFINES += IOCRYPT
-<<<<<<< HEAD
-## Debug options
-#DEFINES   += DEBUG_HWDEVICE
-DEFINES   += IODUMMYCRYPT
-#DEFINES   += IONOCRYPT
-=======
->>>>>>> upstream/master
 
 ################
 # Default rule #
